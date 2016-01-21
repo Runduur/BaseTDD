@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{C6E6D1F9-2BA9-4DE0-A1D5-AB6CA4554506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{285AAE3B-6212-4657-B90E-43A2D700F450}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5876558B-2911-4DA9-9F05-EE9A4ACFC8F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{AEEE6902-ED15-4303-95DD-87DB01CED7B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{349DBBA4-742D-4D4F-99E4-32719CAE0879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{7D4FF55B-2903-43F4-A7CC-E9F65EC3A74A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEEE6902-ED15-4303-95DD-87DB01CED7B4} = {5876558B-2911-4DA9-9F05-EE9A4ACFC8F8}
+		{349DBBA4-742D-4D4F-99E4-32719CAE0879} = {5876558B-2911-4DA9-9F05-EE9A4ACFC8F8}
+	EndGlobalSection
+EndGlobal
