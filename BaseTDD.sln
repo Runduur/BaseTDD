@@ -21,12 +21,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{7D4FF55B-290
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Web", "Applications\FizzBuzz.Web\FizzBuzz.Web.csproj", "{1AD343F5-1659-4BCD-900E-57D867808DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Web.Tests", "Tests\Applications\FizzBuzz.Web.Tests\FizzBuzz.Web.Tests.csproj", "{F8B23D7D-1BBF-48FD-AA99-CF80DBF13BB4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AD343F5-1659-4BCD-900E-57D867808DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD343F5-1659-4BCD-900E-57D867808DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD343F5-1659-4BCD-900E-57D867808DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD343F5-1659-4BCD-900E-57D867808DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B23D7D-1BBF-48FD-AA99-CF80DBF13BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B23D7D-1BBF-48FD-AA99-CF80DBF13BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B23D7D-1BBF-48FD-AA99-CF80DBF13BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B23D7D-1BBF-48FD-AA99-CF80DBF13BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AEEE6902-ED15-4303-95DD-87DB01CED7B4} = {5876558B-2911-4DA9-9F05-EE9A4ACFC8F8}
 		{349DBBA4-742D-4D4F-99E4-32719CAE0879} = {5876558B-2911-4DA9-9F05-EE9A4ACFC8F8}
+		{1AD343F5-1659-4BCD-900E-57D867808DC7} = {C6E6D1F9-2BA9-4DE0-A1D5-AB6CA4554506}
+		{F8B23D7D-1BBF-48FD-AA99-CF80DBF13BB4} = {AEEE6902-ED15-4303-95DD-87DB01CED7B4}
 	EndGlobalSection
 EndGlobal
