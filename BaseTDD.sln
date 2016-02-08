@@ -21,12 +21,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{7D4FF55B-290
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Web.Tests", "Tests\Applications\HelloWorld.Web.Tests\HelloWorld.Web.Tests.csproj", "{12AF91D5-6A0B-4223-B537-293FE15C74F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Web", "Applications\HelloWorld.Web\HelloWorld.Web.csproj", "{D2AA1963-8E1C-4773-8F49-8BB2714AEA64}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12AF91D5-6A0B-4223-B537-293FE15C74F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AF91D5-6A0B-4223-B537-293FE15C74F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AF91D5-6A0B-4223-B537-293FE15C74F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AF91D5-6A0B-4223-B537-293FE15C74F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AA1963-8E1C-4773-8F49-8BB2714AEA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AA1963-8E1C-4773-8F49-8BB2714AEA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AA1963-8E1C-4773-8F49-8BB2714AEA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AA1963-8E1C-4773-8F49-8BB2714AEA64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AEEE6902-ED15-4303-95DD-87DB01CED7B4} = {5876558B-2911-4DA9-9F05-EE9A4ACFC8F8}
 		{349DBBA4-742D-4D4F-99E4-32719CAE0879} = {5876558B-2911-4DA9-9F05-EE9A4ACFC8F8}
+		{12AF91D5-6A0B-4223-B537-293FE15C74F4} = {AEEE6902-ED15-4303-95DD-87DB01CED7B4}
+		{D2AA1963-8E1C-4773-8F49-8BB2714AEA64} = {C6E6D1F9-2BA9-4DE0-A1D5-AB6CA4554506}
 	EndGlobalSection
 EndGlobal
